@@ -1,5 +1,13 @@
 # optommp
 
+Working with Python 3.5. To install 
+
+```
+sudo pip3 install git+https://github.com/NyleWaterHeatingSystems/optommp.git
+```
+
+---
+
 Python toolkit to access data on Opto 22 _groov_ EPIC using the OptoMMP protocol. See [OptoMMP Protocol Guide](https://www.opto22.com/support/resources-tools/documents/1465-optommp-protocol-guide "opto22 support") (form 1465) and the Opto 22 [developer site for more details](http://developer.opto22.com/). Hosted on the [Python Package Index (PyPI)](https://pypi.org/project/optommp/).
 
 To use this package do `sudo pip install optommp` to get the package from PyPI, `import optommp` at the top of your \*.py Python script, and then use the following functions to interface with your device(s):
